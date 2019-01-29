@@ -1,0 +1,103 @@
+#player{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+} 
+
+#video-container{
+    height: 360px;
+    width: 640px;
+    position: relative;
+}
+    video{
+        height: 100%;
+        width: 100%;
+    }
+    #pause-screen{
+        height: 100%;
+        width: 100%;
+        line-height: 360px;
+        text-align: center;
+        margin-left: 0;
+        position: absolute;
+        z-index: 1 !important;
+
+        background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    #pause-screen-btn{
+        vertical-align: middle;
+    }
+
+#progress-bar-container{
+    margin-top:2px;
+    padding-bottom: 2px;
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+    #progress-bar{
+        height: 5px;
+        width: 0;
+        background-color: darkslategray;
+    }
+    
+#buttons-container{
+    height: 50px;
+    background-color:darkslategray;
+}
+    #buttons-container > *{
+            display: inline-block;
+            height: 100%;         
+            padding: 1px;
+            vertical-align: top;
+            margin:0 10px;
+            cursor: pointer;
+            
+    }
+    button{
+        border: 0;
+        outline: 0;
+        width: 50px;
+        background: none;
+        color:darkseagreen;
+    }
+
+    #time-stamp{
+        vertical-align: middle;
+        color:darkseagreen;
+        line-height: 50px;
+    }
+
+   #sound-bar-container{
+       
+       width: 100px;
+       height: 5px;
+       margin-left: 0;
+       vertical-align: middle;
+       background-color:rgba(143, 188, 143, 0.6);
+   }
+        #sound-bar{
+            height: 5px;
+             width: 100%;
+             background-color: darkslategray;
+        }
+
+   #sound{
+       margin-right: 0;
+   }
+
+   button:hover{
+    color: seagreen;
+   }
+   
+
+   #fullscreen{
+       float: right;
+   }
+
+   
