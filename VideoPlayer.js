@@ -16,9 +16,11 @@ window.addEventListener('load', function(){
     video.addEventListener('canplay', function(){
       
         playButton.addEventListener('click', playOrPause, false);
+        
         progressBarContianer.addEventListener('click', seek, false);
         
         soundButton.addEventListener('click', muteOrUnmute, false);
+        
         soundBarContainer.addEventListener('click', updateVolume, false);
        
         fullscreenButton.addEventListener('click', fullscreen, false);

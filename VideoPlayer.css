@@ -1,5 +1,5 @@
 #player{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color:black;
     display: inline-block;
     user-select: none;
     -webkit-user-select: none;
@@ -37,18 +37,18 @@
 #progress-bar-container{
     margin-top:2px;
     padding-bottom: 2px;
-    background-color: darkseagreen;
+    background-color: saddlebrown;
     cursor: pointer;
 }
     #progress-bar{
         height: 5px;
         width: 0;
-        background-color: darkslategray;
+        background-color: chocolate;
     }
     
 #buttons-container{
     height: 50px;
-    background-color:darkslategray;
+    background-color:black;
 }
     #buttons-container > *{
             display: inline-block;
@@ -64,12 +64,12 @@
         outline: 0;
         width: 50px;
         background: none;
-        color:darkseagreen;
+        color:chocolate;
     }
 
     #time-stamp{
         vertical-align: middle;
-        color:darkseagreen;
+        color:chocolate;
         line-height: 50px;
     }
 
@@ -79,12 +79,12 @@
        height: 5px;
        margin-left: 0;
        vertical-align: middle;
-       background-color:rgba(143, 188, 143, 0.6);
+       background-color:saddlebrown;
    }
         #sound-bar{
             height: 5px;
              width: 100%;
-             background-color: darkslategray;
+             background-color: chocolate;
         }
 
    #sound{
@@ -92,7 +92,7 @@
    }
 
    button:hover{
-    color: seagreen;
+    color: saddlebrown;
    }
    
 
